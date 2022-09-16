@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Notenrechner</title>
+</head>
+<body>
+    <h1>Notenrechner</h1>
+    <div class="container">
+        <p>Maximal zu erreichende Punktzahl:</p>
+        <input id="maxPoints" type="number" value="100" placeholder="100">
+        <p>Erreichte Punkte:</p>
+            <input id="achievedPoints" type="number" placeholder="0">
+        <div class="results">
+            <p class="result"><span id="result-percent">0%</span></p>
+            <p id="result-note">📝</p>
+            <button id="result-btn">Ergebnis anzeigen</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

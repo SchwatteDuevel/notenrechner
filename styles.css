@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #fff;
+    text-align: center;
+    background-color: rgb(74, 138, 217);
+}
+
+h1 {
+    font-size: 48px;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    min-height: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #cacaca;
+    border-radius: 10px;
+}
+
+#result-btn {
+    background-color: #fff;
+    color: rgb(74, 138, 217);   
+    padding: 10px 20px;
+    box-shadow: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#result-percent,
+#result-note {
+  font-size: 48px;
+  background-color: #fff;
+  color:rgb(74, 138, 217);
+  border-radius: 5px;;
+  padding: 10px;
+}
+
+.results{
+    margin-top: 100px;
+}
