@@ -8,7 +8,7 @@ let emoji = "";
 
 resultBtn.addEventListener("click", function() {
     let percentResult = Math.round((100*achievedPoints.value)/maxPoints.value);
-    resultPercent.innerText = percentResult + "%";  ;
+    resultPercent.innerText = percentResult + "%";
     if(percentResult <= 29) {
         note = "6";
         emoji = "😵";
